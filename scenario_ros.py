@@ -13,11 +13,13 @@ cat.translate(x=-6.0, z=0.2)
 
 semanticL = SemanticCamera()
 semanticL.translate(x=0.2, y=0.3, z=0.9)
+semanticL.rotate(x=0.25, y=0.0, z=0.0)
 semanticL.frequency(frequency=30)
 cat.append(semanticL)
 
 semanticR = SemanticCamera()
 semanticR.translate(x=0.2, y=-0.3, z=0.9)
+semanticR.rotate(x=-0.25, y=0.0, z=0.0)
 semanticR.frequency(frequency=30)
 cat.append(semanticR)
 
